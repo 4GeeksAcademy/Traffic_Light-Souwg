@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 
-const TrafficLights = (props) =>{
+const TrafficLights = () =>{
     const[color, setColor] = useState('red')
     const[lights, setLights] = useState(['red', 'yellow', 'green'])
 
     return(
         <>
-        <div className="card m-auto" style={{height: "200px", width: "30px",
+        <div className="card m-auto" style={{height: "80px", width: "30px",
         background: "black",
         borderRadius: "0",
         }}>
@@ -39,7 +39,6 @@ const TrafficLights = (props) =>{
             )}
             </div>
         </div>
-        <button className="btn btn-primary">click me!</button>
         </>   
     );
 };
