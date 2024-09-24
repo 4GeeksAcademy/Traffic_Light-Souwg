@@ -9,20 +9,21 @@ const TrafficLights = () =>{
         <>
             <div className="card m-auto"
             style={{
-                height: "60px", 
-                width: "30px",
+                height: "4rem", 
+                width: "1.5rem",
                 background: "black",
                 borderRadius: "0",
                 }}>
             </div>
-        <div className="card d-flex justify-content-center align-items-center m-auto mt-0" 
+        <div className="card d-flex justify-content-center align-items-center m-auto" 
             style={{
             background: "black",
-            height: "20%",
-            width: "10%",
+            width: '6rem',
+            height: '20rem',
             color: "white",
             fontSize: "4vw",
             fontWeight: "bolder",
+            borderRadius: '8px',
           }}>
             <div className="card-body">
             {lights.map((light,index)=>
@@ -32,8 +33,8 @@ const TrafficLights = () =>{
                 className={`btn ${light === color ? "active" : "" || light === colorPurple ? "active" : ""}`}
                 style={{
                     backgroundColor: light,
-                    width: "6rem",
-                    height: "6rem", 
+                    width: "5rem",
+                    height: "5rem", 
                     margin: "0.5rem 0",
                     borderRadius: "60%", 
                     cursor: "pointer", 
