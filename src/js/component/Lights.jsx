@@ -35,7 +35,7 @@ const TrafficLights = () =>{
                     backgroundColor: light,
                     width: "5rem",
                     height: "5rem", 
-                    margin: "0.5rem",
+                    marginTop: "10%",
                     borderRadius: "60%", 
                     cursor: "pointer", 
                     boxShadow: light === color ? "0px 0px 20px lightyellow" : "none" || light === colorPurple ? "0px 0px 20px purple" : "none",
