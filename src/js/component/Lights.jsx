@@ -21,7 +21,6 @@ const TrafficLights = () =>{
             width: '6rem',
             height: '20rem',
             color: "white",
-            fontSize: "4vw",
             fontWeight: "bolder",
             borderRadius: '8px',
           }}>
